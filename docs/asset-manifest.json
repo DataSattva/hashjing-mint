@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5d4217c.css",
-    "main.js": "/static/js/main.2a21b0b0.js",
-    "index.html": "/index.html",
-    "main.a5d4217c.css.map": "/static/css/main.a5d4217c.css.map",
-    "main.2a21b0b0.js.map": "/static/js/main.2a21b0b0.js.map"
+    "main.css": "/hashjing-mint/static/css/main.a5d4217c.css",
+    "main.js": "/hashjing-mint/static/js/main.2a21b0b0.js",
+    "index.html": "/hashjing-mint/index.html",
+    "main.a5d4217c.css.map": "/hashjing-mint/static/css/main.a5d4217c.css.map",
+    "main.2a21b0b0.js.map": "/hashjing-mint/static/js/main.2a21b0b0.js.map"
   },
   "entrypoints": [
     "static/css/main.a5d4217c.css",
