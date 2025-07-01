@@ -162,6 +162,3 @@ yarn-error.log*
 
 # Local React dev server data
 *.local
-
-# Others
-hidden/
