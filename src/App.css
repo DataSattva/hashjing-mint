@@ -128,6 +128,22 @@ html { scroll-behavior: smooth; }
   touch-action: manipulation;
 }
 
+/* Disabled green-button via class */
+.green-button.disabled,
+.green-button:disabled {
+  background: #a6d5b8; /* muted green */
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* Don't apply hover effect when disabled */
+.green-button.disabled:hover,
+.green-button:disabled:hover {
+  background: #a6d5b8;
+}
+
+
 /* Keyboard accessibility outline */
 .green-button:focus-visible {
   outline: 2px solid var(--green-dark);
