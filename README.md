@@ -1,46 +1,27 @@
-# Getting Started with Create React App
+# HashJing – TestNet Mint
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Minimal React + TypeScript interface for minting **HashJing** NFTs on the Sepolia testnet.
 
-## Available Scripts
+HashJing is a fully on-chain generative system where cryptographic entropy is rendered as a circular glyph—a mandala of 64 sectors and 4 rings—directly inside the EVM.
 
-In the project directory, you can run:
+This interface allows users to connect a wallet, verify the network, and mint testnet tokens. The output SVGs are generated entirely on-chain and require no external server.
 
-### `npm start`
+> **Note:** This is a testnet-only deployment. Tokens minted here are not part of the canonical collection and hold no value. Mainnet deployment will be announced separately.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Wallet connect and network check (MetaMask-compatible)
+- On-chain minting via the HashJingNFT contract
+- Contract status (minting enabled, total minted)
+- Responsive layout based on legacy HTML/CSS template
+- No external dependencies beyond `ethers.js` and `sonner`
 
-### `npm test`
+## Repositories
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Smart contracts: [hashjing-nft](https://github.com/DataSattva/hashjing-nft)
+- Full project and renderer logic: [hashjing](https://github.com/DataSattva/hashjing)
 
-### `npm run build`
+## License
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+MIT for code.  
+Visual assets and concepts © 2025 [DataSattva](https://github.com/DataSattva), some rights reserved.
