@@ -1,4 +1,4 @@
-# HashJing – TestNet Mint
+# HashJing Mint | TestNet
 
 Minimal React + TypeScript interface for minting **HashJing** NFTs on the Sepolia testnet.
 

@@ -100,7 +100,11 @@ function App() {
 
   return (
     <>
-      <div id="title">HashJing – Mint</div>
+      <div id="title">
+        <div>HashJing Mint</div>
+        <div className="net-label">TestNet</div>
+      </div>
+
       <main id="mandala-section">
         <div className="section-title">Mint your unique mandala</div>
         <p className="status">
